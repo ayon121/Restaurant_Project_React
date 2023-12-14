@@ -13,7 +13,8 @@ export default {
     },
     extend:  {
       fontFamily : {
-        Nunito : "'Nunito Sans', sans-serif;"
+        Nunito : "'Nunito Sans', sans-serif;",
+        Allura : "'Allura', cursive;"
       }
     }
   },
