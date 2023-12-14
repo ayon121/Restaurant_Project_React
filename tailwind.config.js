@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      'main': '#161A30',
+      'sub_color_1': '#EEF5FF',
+      'highlight_color': '#FF444A',
+      
+    },
+    extend:  {
+      fontFamily : {
+        Nunito : "'Nunito Sans', sans-serif;"
+      }
+    }
   },
   plugins: [require("daisyui")],
 }
