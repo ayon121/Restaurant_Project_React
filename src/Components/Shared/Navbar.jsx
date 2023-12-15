@@ -37,7 +37,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn  bg-sub_color_1 text-main  hover:bg-highlight_color hover:text-main border-sub_color_1">Book A Table</a>
+                    <a className="btn font-extrabold bg-sub_color_1 text-main  hover:bg-highlight_color hover:text-main border-sub_color_1">Book A Table</a>
                 </div>
             </div>
         </div>
