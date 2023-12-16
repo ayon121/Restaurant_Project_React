@@ -1,7 +1,7 @@
 import "../Banner/Banner.css"
 const Banner = () => {
     return (
-        <div className='featuredimage bg-fixed mb-5 h-screen font-Nunito'>
+        <div className='featuredimage bg-fixed mb-5 h-auto font-Nunito'>
             <div className="carousel w-full h-full bg-main bg-opacity-60">
                 <div id="slide1" className="carousel-item relative w-full ">
                     {/* img */}
@@ -11,7 +11,7 @@ const Banner = () => {
                             <a className=" text-3xl md:text-4xl lg:text-6xl text-sub_color_1 font-Allura"><span className="text-highlight_color"> C</span>ulina</a>
                             </h1>
                             <p className="py-2">Indulge in a culinary narrative like no other at Calina, where every bite is a chapter of delicious tales waiting to be savored. Join us on a gastronomic journey that transcends flavors and creates unforgettable moments. Your table is set, and the story begins with each delectable bite. Welcome to Calina, where every taste tells a delicious story!</p>
-                            <button className="btn btn-xs sm:btn-sm md:btn-md font-bold">JOIN</button>
+                            <button className="btn btn-sm md:btn-md font-bold">JOIN</button>
                         </div>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
