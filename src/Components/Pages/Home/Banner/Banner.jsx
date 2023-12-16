@@ -50,7 +50,7 @@ const Banner = () => {
 
                             <p className="py-2">Dive into a world of taste bud enchantment at Calina. Immerse yourself in an exquisite symphony of flavors, where each dish is a masterpiece. Elevate your dining experience and let your taste buds dance with delight. Calina invites you to savor the extraordinary!</p>
                             <div className="">
-                                <button className="btn btn-xs sm:btn-sm md:btn-md font-bold py-2">Best Dishes</button>
+                                <button className="btn btn-sm md:btn-md font-bold py-2">Best Dishes</button>
                             </div>
                         </div>
                     </div>
