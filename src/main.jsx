@@ -9,11 +9,13 @@ import {
 } from "react-router-dom";
 import Layout from './Components/Pages/Layout/Layout';
 import Home from './Components/Pages/Home/Home';
+import ErrorPage from './Components/Pages/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
+    errorElement : <ErrorPage></ErrorPage>,
     children : [
       {
         path : "/",

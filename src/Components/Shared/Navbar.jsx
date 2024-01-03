@@ -7,7 +7,7 @@ const Navbar = () => {
     // hamburger
     const [isOpen, setOpen] = useState(false)
     const navlinks = <>
-        <li><NavLink to="/" className={({ isActive }) => isActive ? 'text-sm font-bold text-highlight_color' : 'text-sm bg-transparent text-[#f8f5f5]'}>Home</NavLink></li>
+        <li><NavLink to="/" className={({ isActive }) => isActive ? 'text-sm font-bold text-highlight_color' : 'text-sm bg-transparent text-[#f8f5f5]'} >Home</NavLink></li>
         <li><NavLink className={({ isActive }) => isActive ? 'text-sm  font-bold text-highlight_color' : 'text-sm  bg-transparent text-[#f8f5f5]'} to="/menu" >Menu</NavLink></li>
         <li><NavLink className={({ isActive }) => isActive ? 'text-sm  font-bold text-highlight_color' : 'text-sm  bg-transparent text-[#f8f5f5]'} to="/contact" >Contact</NavLink></li>
         <li><NavLink className={({ isActive }) => isActive ? 'text-sm  font-bold text-highlight_color' : 'text-sm  bg-transparent text-[#f8f5f5]'} to="/about" >About</NavLink></li>
@@ -37,7 +37,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn font-extrabold bg-sub_color_1 text-main  hover:bg-highlight_color hover:text-main border-sub_color_1">Book A Table</a>
+                    <a className="btn btn-sm md:btn-md font-extrabold bg-sub_color_1 text-main  hover:bg-highlight_color hover:text-main border-sub_color_1">Book A Table</a>
                 </div>
             </div>
         </div>
