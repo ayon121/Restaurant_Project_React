@@ -9,9 +9,9 @@ const PopularDishes = () => {
             <Marquee autoFill="true" >
                 <div className="grid grid-cols-3  gap-1 px-2 max-w-7xl mx-auto mb-5">
 
-                    <PopularDish></PopularDish>
-                    <PopularDish></PopularDish>
-                    <PopularDish></PopularDish>
+                    <PopularDish title={'Pizza'}></PopularDish>
+                    <PopularDish title={'Barger'}></PopularDish>
+                    <PopularDish title={'Hot Dog'}></PopularDish>
 
                 </div>
             </Marquee>
