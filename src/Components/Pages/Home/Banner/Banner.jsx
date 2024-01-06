@@ -2,7 +2,7 @@ import "../Banner/Banner.css"
 const Banner = () => {
     return (
         <div className='featuredimage bg-fixed mb-5 h-auto font-Nunito'>
-            <div className="carousel w-full h-full bg-main bg-opacity-60 mb-5">
+            <div className="carousel w-full h-full bg-main bg-opacity-60 pb-4">
                 <div id="slide1" className="carousel-item relative w-full ">
                     {/* img */}
                     <div className="flex justify-center items-center w-3/4 text-sub_color_1 max-w-5xl mx-auto">

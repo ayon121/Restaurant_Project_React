@@ -5,7 +5,7 @@ const OurStory = () => {
     return (
         <div>
             <Title title={'Our Story'}></Title>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-3 px-5 mb-6 max-w-5xl mx-auto ">
+            <div className="flex flex-col md:flex-row justify-center items-start gap-3 px-5 mb-2 max-w-5xl mx-auto ">
                 
                 {/* story */}
                 <div className="grow w-3/4">
@@ -20,9 +20,9 @@ const OurStory = () => {
                     <a className="btn btn-sm md:btn-md font-extrabold bg-highlight_color text-main  hover:bg-sub_color_1 hover:text-highlight_color border-highlight_color my-4">Know More</a>
                 </div>
                 {/* img */}
-                <div className=" md:w-1/3  h-full ">
+                <div className=" md:w-1/3  h-screen ">
                     <div>
-                        <img className="h-screen rounded-2xl" src={storypic} alt="our story" />
+                        <img className="h-3/4 rounded-2xl" src={storypic} alt="our story" />
                     </div>
                 </div>
             </div>
