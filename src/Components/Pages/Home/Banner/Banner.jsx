@@ -65,7 +65,7 @@ const Banner = () => {
                         <div>
                             <h1 className="text-3xl md:text-4xl lg:text-6xl py-2"> Where Passion Meets Palate. Join us for a feast of flavors that will leave an everlasting impression.</h1>
                             <p className="py-2">At Calina, it is where passion meets palate. Indulge in a feast of flavors that promises to leave an everlasting impression. Join us for an extraordinary culinary journey where every bite is a celebration of taste and a testament to our commitment to excellence. Welcome to a dining experience that lingers in your memory , welcome to Calina.</p>
-                            <button className="btn btn-xs sm:btn-sm md:btn-md font-bold py-2">JOIN</button>
+                            <button className="btn btn-sm md:btn-md font-bold py-2">JOIN</button>
 
                         </div>
                     </div>
